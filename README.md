@@ -20,6 +20,8 @@
   Jose Escoto
   
   ## Questions
+  must fill out each route to perform crud data search using req.body
+  sequlize the data in the server.js
 
 
 
