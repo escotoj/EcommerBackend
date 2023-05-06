@@ -21,14 +21,14 @@ router.get('/api/products', async (req, res) => {
     });
       const products = productData.map(product => product.get({plain: true}));
       res.render('products', {
-        sentence: 'These are all the products',
+        sentence: 'These are all the products and their associated categories and tags.',
         products
       });
     } catch (error) {
       res.status(500).json({error});
     }
   })
-  ;
+;
 
 // get one product
 router.get('/:id', (req, res) => {
