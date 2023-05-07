@@ -23,6 +23,12 @@
   must fill out each route to perform crud data search using req.body
   sequlize the data in the server.js
 
+  ## TODO
+  - product-routes.js - [`created most routes just need to test and add DELETE route`] 
+  - tag-routes.js - `need to check route that have - been created and must add a DELETE route and a PUT`
+  - category-routes.js - `need to check routes that have been created and must add PUT, DELETE`
+
+
 
 
   For more questions please contact below: 
